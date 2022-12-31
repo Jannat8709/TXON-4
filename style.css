@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-color: rgb(233, 205, 231);
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(143, 118, 142);
+    /* width: 250px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+    /* height: 100%; */
+
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    margin: 35px 7px;
+    font-size: 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+    /* background-color: rgb(218, 179, 179); */
+    display: flex;
+    height:55vh ;
+    width: 80vw;
+    margin: 135px auto ;
+    justify-content: space-around;
+}
+.devInfo{
+    margin: 0px 0px 0px 115px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hello{
+font-size: 40px;
+/* font-weight:inherit; */
+}
+
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 25px;
+}
+.buttons button{
+    padding: 7px 14px;
+    border-radius: 10px;
+    background-color: rgb(48, 102, 153);
+    color: white;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.buttons button:hover{
+    background-color:white ;
+    color: rgb(48, 102, 153);
+}
+
+.divPic img{
+    height: 55vh;
+    border-radius: 125px;
+}
+
+
+/* CSS for contact us */
+
+.contactform h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* text-align: center; */
+   padding: 75px 0px 50px 11px;
+}
+.contactform {
+padding: 0px 50px;
+
+}
+
+.mb-3{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control{
+    width: 275px;
+    border-radius: 5px;
+    height: 21px;
+    border: 2px solid black;
+    font-size: 12px;
+    padding: 1px 5px;
+}
+#emailHelp{
+    color: #5a5757;
+    margin: 5px 3px;
+    font-size: 12px
+}
+.client{
+    padding: 8px 15px;
+   
+}
+
+.btn-btn-sm{
+    padding:5px 15px;
+    border-radius:10px;
+    margin:8px 12px;
+    cursor: pointer;
+    background-color: rgb(48, 102, 153);
+    color: white;
+}
+.btn-btn-sm:hover{
+    background-color:white ;
+    color: rgb(48, 102, 153);
+}
+
+/* CSS for Blog */
+.blog h1{
+    margin:28px 0px 0px 22px;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+.blogitem {
+  margin: 20px 0px 0px 40px; 
+  font-family: 'Source Sans Pro', sans-serif 
+}
+.blogitem p{
+  margin: 10px 0px 0px 80px; 
+  font-family: 'Source Sans Pro', sans-serif 
+}
+.btn-sm{
+    padding:5px 15px;
+    border-radius:10px;
+    margin:7px 0px 0px 85px;
+    cursor: pointer;
+    background-color: rgb(48, 102, 153);
+    color: white;
+}
+.btn-sm:hover{
+    background-color:white ;
+    color: rgb(48, 102, 153);
+}
+
+/* CSS for My Intro */
+
+.main h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* text-align: center; */
+   padding: 60px 0px 8px 60px;
+}
+.main h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* text-align: center; */
+   padding: 5px 0px 5px 60px;
+}
+.para{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* text-align: center; */
+    padding:5px 0px 30px 65px;
+}
+
+.skillcontainer{
+    margin-left: 80px
+    
+}
+.skillItem{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif 
+    /* display: flex; */
+}
+
+.skill{
+    width: 20px;
+    height: 3px;
+    border-radius: 10px;
+
+    /* border: 1px solid black; */
+}
+
+.t68{
+ background-color:rgb(189, 119, 119) ;  
+ width: 108px; 
+}
+.t70{
+background-color:rgb(101, 121, 82) ;
+width: 130px;
+}
+.t38{
+background-color: rgb(161, 150, 97);
+width: 68px;
+}
+.t49{
+background-color:rgb(82, 235, 158) ;
+width: 85px;
+}
+.t34{
+background-color:rgb(77, 125, 197) ;
+width:60px;
+}
+.t55{
+background-color: rgb(126, 55, 133);
+width: 95px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 135px;
+    height: 40px;
+    width: 40px;
+}
+
+.sidebar-go{
+    transform: translate(-444px,0px);
+    position: absolute;
+}
+/* Media Query */
+
+@media (max-width: 1300px){
+    
+    .divPic{
+        /* display: none; */
+        /* display: flex; */
+        /* flex-direction: row; */
+        
+    }
+    .infoContainer{
+        display: block;
+     
+    }
+
+    .main h1{
+        font-size: 30px;
+    }
+    .blog h1{
+        padding: 15px 0px 0px 25px;
+    }
+    .infoContainer{
+        margin: 75px 0px 0px 20px;
+    }
+
+    .divPic img{
+    height: 220px;
+    width: 220px;
+    margin: 22px 0px 0px 58px;
+ }
+    
+   
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
